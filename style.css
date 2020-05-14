@@ -5,3 +5,8 @@ body {
 body h2 {
   font-family: 'Open Sans', sans-serif;
   }
+
+/* navbar CSS */
+.dropdown-toggle::after{
+  content:none;
+}

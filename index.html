@@ -4,11 +4,47 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Work+Sans:wght@300;400;700&display=swap" rel="stylesheet">
-
+     <link href="./fontawsomeicon/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Kohei's Personal Portfolio</title>
   </head>
   <body>
+    <nav class="navbar navbar-expand-md">
+      <div class="d-none d-sm-block w-100">
+        <div class="d-flex flex-row justify-content-between align-items-center">
+          <div class="nav-left d-flex">
+            <span><a href="#About" class="nav-link">About</a></span>
+            <span><a href="#Portfolio" class="nav-link">Portfolio</a></span>
+          </div>
+          <div class="nav-right">
+            <span><a href="#Contact" class="nav-link">Contact</a></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="dropdown d-sm-none">
+        <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <span class=""><i class="fas fa-bars"></i></span>
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#About">About</a>
+          <a class="dropdown-item" href="#Portfolio">Portfolio</a>
+          <a class="dropdown-item" href="#Contact">Contact</a>
+        </div>
+      </div>
+
+      <!-- <button class="d-sm-none navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active"><a class="nav-link"href="#About" class="nav-link">About</a></li>
+          <li class="nav-item active"><a lass="nav-link" href="#Portfolio" class="nav-link">Portfolio</a></li>
+          <li class="nav-item active"><a lass="nav-link" href="#Contact" class="nav-link">Contact</a></li>
+        </ul>
+      </div> -->
+    </nav>
 
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
