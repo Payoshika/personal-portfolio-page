@@ -6,7 +6,45 @@ body h2 {
   font-family: 'Open Sans', sans-serif;
   }
 
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 /* navbar CSS */
 .dropdown-toggle::after{
   content:none;
+}
+
+/* Profile CSS */
+.profile{
+}
+
+.image-container{
+  padding-top: calc(2/3 * 100%);
+  background-size: cover;
+}
+
+.personal-photo{
+  background-image: url("https://via.placeholder.com/300x300");
+}
+
+/* main */
+.portfolio-1{
+  background-image: url("https://via.placeholder.com/300x300");
+}
+
+.portfolio-2{
+  background-image: url("https://via.placeholder.com/300x300");
+}
+
+.portfolio-3{
+  background-image: url("https://via.placeholder.com/300x300");
+}
+
+/* media Queries */
+@media all and (min-width:768px){
+  .container-fluid{
+    padding: 20px 100px 20px 100px;
+  }
 }
