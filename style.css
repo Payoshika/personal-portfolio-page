@@ -1,10 +1,20 @@
 body {
   font-family: 'Work Sans', sans-serif;
+  background-color: #88888887;
 }
 
 body h2 {
   font-family: 'Open Sans', sans-serif;
   }
+
+body a, .menu-bar, body a:hover, body i:hover, .dropdown-item:hover{
+  font-family: 'Work Sans', sans-serif;
+  color: #eee;
+}
+
+p{
+  line-height: 1.7rem;
+}
 
 .row {
   margin-left: 0;
@@ -12,24 +22,45 @@ body h2 {
 }
 
 /* navbar CSS */
+.navbar{
+  background-color: #888888ab;
+}
+
+.navbar span a{
+  border-bottom: solid 1px #888888ab;
+}
+
+.navbar span a:hover{
+  border-bottom: solid 1px #eee;
+}
+
+.dropdown-menu{
+  background-color: #88888887;
+}
+
 .dropdown-toggle::after{
   content:none;
 }
 
 /* Profile CSS */
-.profile{
-}
 
 .image-container{
-  padding-top: calc(2/3 * 100%);
+  width:80%;
+  padding-top: 80%;
   background-size: cover;
 }
 
 .personal-photo{
-  background-image: url("https://via.placeholder.com/300x300");
+  background-image: url("./images/kohei.jpg");
 }
 
 /* main */
+
+.portfolio-image-container{
+  padding-top: calc(2/3*100%);
+  background-size: cover;
+
+}
 .portfolio-1{
   background-image: url("https://via.placeholder.com/300x300");
 }
@@ -40,6 +71,19 @@ body h2 {
 
 .portfolio-3{
   background-image: url("https://via.placeholder.com/300x300");
+}
+
+/* fotter */
+.form-control{
+  background-color: #eeeeeead;
+  border: 1px solid #eeeeeead;
+}
+
+.select{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
 }
 
 /* media Queries */

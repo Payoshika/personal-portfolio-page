@@ -10,24 +10,24 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-md">
+    <nav class="navbar navbar-expand-md py-2 my-3">
       <div class="d-none d-sm-block w-100">
-        <div class="d-flex flex-row justify-content-between align-items-center">
+        <div class="h4 d-flex flex-row justify-content-between align-items-center mb-0">
           <div class="nav-left d-flex">
-            <span><a href="#About" class="nav-link">About</a></span>
-            <span><a href="#Portfolio" class="nav-link">Portfolio</a></span>
+            <span><a href="#About" class="nav-link"><strong>About</strong></a></span>
+            <span><a href="#Portfolio" class="nav-link"><strong>Portfolio</strong></a></span>
           </div>
           <div class="nav-right">
-            <span><a href="#Contact" class="nav-link">Contact</a></span>
+            <span><a href="#Contact" class="nav-link"><strong>Contact</strong></a></span>
           </div>
         </div>
       </div>
 
       <div class="dropdown d-sm-none">
         <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <span class=""><i class="fas fa-bars"></i></span>
+          <span class="menu-bar"><i class="fas fa-bars"></i></span>
         </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <div class="dropdown-menu border-0" aria-labelledby="dropdownMenuButton">
           <a class="dropdown-item" href="#About">About</a>
           <a class="dropdown-item" href="#Portfolio">Portfolio</a>
           <a class="dropdown-item" href="#Contact">Contact</a>
@@ -35,70 +35,97 @@
       </div>
     </nav>
 
-    <div class="profile container-fluid w-100 my-4">
+    <div class="profile container-fluid w-100 py-4 border-bottom" id="About">
       <div class="row">
-        <div class="col-12 col-sm-6 w-100 d-flex justify-content-center align-items-center">
-          <div class="image-container personal-photo rounded w-100"></div>
+        <div class="col-12 col-sm-6 d-flex justify-content-center align-items-center">
+          <div class="image-container personal-photo rounded-circle"></div>
         </div>
         <div class="col-12 col-sm-6 py-3 d-flex flex-column justify-content-center">
-          <h2>Kohei Oishi</h2>
+          <h2 class="pb-2">Kohei Oishi</h2>
           <p>
-            <sm>Kohei was born and raised in Osaka, Japan. Another line here. Another line here. Another line here. Another line here. Another line here. Another line here.</sm>
+            <sm>Kohei was born and raised in Osaka, Japan. Having worked in a manufacturing start-up and  foreign-aid agency of Japanese Government, he realized digital technology is making the changes across the world. He is now reshaping his path to be a enginner to tackle social issues in Japan and overseas.</sm>
           </p>
+          <p>More about him at <a href="https://www.facebook.com/kohei.oishi.9"><i class="fab fa-facebook"></i></a> or <a href="https://github.com/Payoshika"><i class="fab fa-github"></i></a>.</p>
         </div>
       </div>
     </div>
 
-    <div class="main container-fluid w-100">
+    <div class="main container-fluid w-100 my-4 border-bottom" id="Portfolio">
+      <h2 class="text-center">Portfolio</h2>
       <div class="row w-100">
         <div class="col-12 col-sm-6 w-100 my-4 d-flex justify-content-center align-items-center">
-          <div class="image-container portfolio-1 rounded w-100"></div>
+          <div class="portfolio-image-container portfolio-1 rounded w-100"></div>
         </div>
         <div class="col-12 col-sm-6 w-100 d-flex justify-content-center align-items-center">
           <div class="py-3 d-flex flex-column justify-content-center">
-            <h3>Kohei Oishi</h3>
+            <h3 class="pb-2">Work 1</h3>
             <p>
-              <sm>Explanation of the work.Explanation of the work.Explanation of the work.Explanation of the work.Explanation of the work.</sm>
+              <sm>explanation of the work. Features of the work. </sm>
             </p>
+            <p>Publish Date: 10 May 2020</p>
           </div>
         </div>
       </div>
 
       <div class="row w-100">
         <div class="col-12 col-sm-6 w-100 my-4 d-flex justify-content-center align-items-center order-1 order-sm-2">
-          <div class="image-container portfolio-2 rounded w-100"></div>
+          <div class="portfolio-image-container portfolio-2 rounded w-100"></div>
         </div>
         <div class="col-12 col-sm-6 w-100 d-flex justify-content-center align-items-center order-2 order-sm-1">
           <div class="py-3 d-flex flex-column justify-content-center">
-            <h3>Kohei Oishi</h3>
+            <h3 class="pb-2">Work 2</h3>
             <p>
-              <sm>Explanation of the work.Explanation of the work.Explanation of the work.Explanation of the work.Explanation of the work.</sm>
+              <sm>explanation of the work. Features of the work.</sm>
             </p>
+            <p>Publish Date: 11 May 2020</p>
           </div>
         </div>
       </div>
       <div class="row w-100">
-        <div class="col-12 col-sm-6 w-100  my-4 d-flex justify-content-center align-items-center">
-          <div class="image-container portfolio-3 rounded w-100"></div>
+        <div class="col-12 col-sm-6 w-100 my-4 d-flex justify-content-center align-items-center">
+          <div class="portfolio-image-container portfolio-3 rounded w-100"></div>
         </div>
         <div class="col-12 col-sm-6 w-100 d-flex justify-content-center align-items-center">
           <div class="py-3 d-flex flex-column justify-content-center">
-            <h3>Kohei Oishi</h3>
+            <h3 class="pb-2">Work 3</h3>
             <p>
-              <sm>Explanation of the work.Explanation of the work.Explanation of the work.Explanation of the work.Explanation of the work.</sm>
+              <sm>explanation of the work. Features of the work.</sm>
             </p>
+            <p>Publish Date: 13 May 2020</p>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="footer container-fluid w-100">
-      <h2 class="py3">Contact</h2>
-      <div class="row w-100">
-        <div class="col-4">Facebook</div>
-        <div class="col-4">Github</div>
-        <div class="col-4">Gmail</div>
+    <div class="footer container-fluid" id="Contact">
+      <h2 class="py3 text-center">Contact</h2>
+
+      <div class="row">
+        <div class="col-0 col-md-2"></div>
+        <div class="col-12 col-md-8 my-4">
+          <form>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="">
+            </div>
+            <div class="form-group">
+              <label for="contact-type">Subject</label>
+              <select class="form-control select" id="contact-type">
+                <option>1. Job request</option>
+                <option>2. General questions</option>
+                <option>3. Others</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="text-area">Text</label>
+              <textarea class="form-control" id="text-area" rows="4"></textarea>
+            </div>
+            <button type="submit" class="btn d-block mx-auto border-light">Send</button>
+          </form>
+        </div>
+        <div class="col-0 col-md-2"></div>
       </div>
+
     </div>
 
 
