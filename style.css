@@ -59,8 +59,8 @@ p{
 .portfolio-image-container{
   padding-top: calc(2/3*100%);
   background-size: cover;
-
 }
+
 .portfolio-1{
   background-image: url("https://via.placeholder.com/300x300");
 }
